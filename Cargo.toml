@@ -1,0 +1,12 @@
+[package]
+name = "FilterIt"
+version = "0.1.0"
+edition = "2024"
+description = "FilterIt is a Rust-based CLI tool that enables users to apply image filters offline while preserving their privacy."
+rust-version = "1.85"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.2.7", features = ["derive"] }
+colored = "2.0.0"
+image = "0.24.6"
